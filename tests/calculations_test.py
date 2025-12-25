@@ -76,3 +76,7 @@ def test_get_nth_fibonacci_zero():
 def test_get_nth_fibonacci_one():
     """Test with n=1."""
     assert get_nth_fibonacci(1) == 1
+
+def test_get_nth_fibonacci_two():
+    """Test with n=2."""
+    assert get_nth_fibonacci(2) == 1
