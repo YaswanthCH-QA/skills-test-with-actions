@@ -67,5 +67,5 @@ def test_get_nth_fibonacci_ten():
     result = get_nth_fibonacci(n)
 
     # Assert
-assert result == 55  # ✅ correct
+    assert result == 55  # ✅ correct
 
